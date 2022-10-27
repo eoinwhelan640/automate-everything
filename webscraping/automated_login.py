@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-url = "http://automated.pythonanywhere.com/login/"
-password= "automatedautomated"
+#url = "http://automated.pythonanywhere.com/login/"
+#password= "automatedautomated"
 
 def build_options(arg: list,exp_arg: list):
     options = webdriver.ChromeOptions()
