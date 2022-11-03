@@ -3,6 +3,7 @@ from PyQt6.QtWidgets import QPushButton, QFileDialog
 from PyQt6.QtCore import Qt
 from pathlib import Path
 
+
 # This class is a bit dodgy, he uses a global variable and two functions for filename, I didnt like that so did this
 class FileManager:
     def __init__(self):
